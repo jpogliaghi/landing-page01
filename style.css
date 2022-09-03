@@ -1,0 +1,132 @@
+
+/*HEADER*/
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px;
+    background-color: rgb(16, 49, 133);
+
+}
+.right-links {
+    display: flex;
+    justify-content: space-around;
+    width: 55%;
+}
+
+.left-links {
+    font-weight: 900;
+    font-size: large;
+}
+
+/* FIRST SECTION */
+
+.section-1 {
+    display: flex;
+    background-color: grey;
+    height: 40vh;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+.section-1, .left-side {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.section-1, .right-side {
+    flex-shrink: 0%;
+    width: 50%;
+}
+
+.title {
+    color: #F9FAF8;
+    font-weight: 900;
+    font-size: 48px;
+}
+
+button {
+    padding: 7px 1em;
+    width: 120px;
+    background-color: #3882F6;
+    border-radius: 12px;
+    color: white;
+    font-weight: bold;
+}
+
+.section-1 button {
+    border: none;
+}
+
+.image {
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 215px;
+}
+
+/*SECTION TWO*/
+
+.section-2 {
+    background-color: white;
+    color: black;
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    
+}
+.section-3 {
+    background-color: grey;
+    color: black;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-4 {
+    background-color: rgb(21, 40, 89);
+    color: white;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-side {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    padding: 16px;
+     margin: 16px;
+     width: 300px;
+}
+
+}
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background: #eee;
+    color: darkmagenta;
+    padding: 2em;
+}
+
+ul {
+    list-style: none;
+    word-spacing: 5px;
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+    color: white;
+  }
+
+  body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+  }
