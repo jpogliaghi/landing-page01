@@ -90,7 +90,7 @@ main h2 {
 .section-2 {
     background-color: white;
     color: black;
-    height: 35vh;
+    height: 28vh;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -119,14 +119,27 @@ h2 {
     font-weight: 700;
 }
 /* THIRD SECTION */
-.section-3 {
-    background-color: grey;
-    color: black;
-    height: 30vh;
+.quote {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    background-color: #E5E7EB;
+    padding: 7em 13em;
 }
+
+.quote p {
+    align-self: flex-end;
+    font-weight: bolder;
+    font-size: 24px;
+    color: #1f2937;
+}
+
+.quote em {
+    font-size: 36px;
+    font-weight: 100;
+    color: #1f2937;
+}
+
 
 /* FOURTH SECTION */
 
