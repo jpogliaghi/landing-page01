@@ -1,14 +1,35 @@
 
 /*HEADER*/
 
-.header {
+header {
+    background-color: #1f2937;
+    padding: 1em 13em;
+}
+
+#logo {
+    font-size: 24px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 25px;
-    background-color: rgb(16, 49, 133);
-
 }
+
+.nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 1.5em;
+}
+.secondary,
+a:link {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
 .right-links {
     display: flex;
     justify-content: space-around;
@@ -22,33 +43,28 @@
 
 /* FIRST SECTION */
 
-.division-1 {
-    background-color: grey;   
-}
-
-.section-1 {
+.welcome {
+    padding: 7em 0;
     display: flex;
-    background-color: grey;
-    height: 40vh;
-    color: white;
     justify-content: center;
     align-items: center;
-    gap: 2em;
-    margin-left: auto
+    gap: 2em;   
 }
 
-.section-1 .left {
+
+
+.welcome .left {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
-.section-1 .right {
+.welcome .right {
     flex-shrink: 0%;
     width: 50%;
     
 }
 
-.title {
+.hero {
     color: #F9FAF8;
     font-weight: 900;
     font-size: 48px;
@@ -58,13 +74,19 @@ button {
     padding: 7px 1em;
     width: 120px;
     background-color: #3882F6;
-    border-radius: 12px;
+    border-radius: 8px;
 }
 
-.section-1 button {
+.welcome button {
     border: none;
 }
-
+.image {
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 215px;
+}
 
 
 
