@@ -143,21 +143,34 @@ h2 {
 
 /* FOURTH SECTION */
 
-.section-4 {
-    background-color: rgb(21, 40, 89);
-    color: white;
-    height: 25vh;
+.sign-up {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding:5em 13em ;
 }
-.left-side {
+
+.container {
     display: flex;
-    flex-direction: column;
-    height: 200px;
-    padding: 16px;
-     margin: 16px;
-     width: 300px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3em;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #3882F6;
+}
+
+.container button {
+    border: 2px solid #FFF
+}
+
+strong {
+    font-size: 24px;
+    color: #FFF;
+}
+
+.secondary {
+    color: #FFF;
 }
 
 /* FOOTER */
